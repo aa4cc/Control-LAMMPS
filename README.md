@@ -28,7 +28,7 @@ Two examples are provided:
 
 The examples can be run direcly using python but for faster simulation, we recommend using **mpirun**
 
-An example:
-- mpirun -np 8 /bin/python3 ./progress_tests/t_KMPC.py
+An example og calling:
+- ` mpirun -np $N /bin/python3 ./sim1_prepare_system.py `
 
-where 
+where **N** is number of CPU cores used for execution.
