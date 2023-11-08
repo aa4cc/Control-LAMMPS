@@ -5,10 +5,7 @@ import numpy as np
 from os import path
 sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
 
-from pyLammpsCtrlTheHood import theHoodObsrv as observs
-from lammps import lammps
-
-pickle_file = "24-10-2023_18-52-15_curr_dataset"
+pickle_file = "PID_ctrl_dataset"
 file1 = open("./sim_data/" + pickle_file + ".pkl", 'rb')
 dataset = pickle.load(file1)
 
